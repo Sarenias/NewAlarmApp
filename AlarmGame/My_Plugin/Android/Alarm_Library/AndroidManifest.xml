@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.unity.alarm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="android.unity.alarm.AlarmClock" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="android.unity.alarm.AlarmWait"
+            android:parentActivityName="android.unity.alarm.AlarmClock" />
+
+        <service
+            android:name="android.unity.alarm.CheckAlarmService"
+            android:exported="false" />
+
+        <receiver
+            android:name="android.unity.alarm.BackgroundAlarm"
+            android:process=":remote" />
+
+        <activity android:name="android.unity.alarm.AlarmFinish" />
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.unity.newalarmapp.AlarmFinish">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="318dp"
+        android:layout_height="34dp"
+        android:text="ALARM TIME HAS BEEN REACHED"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textClock2"/>
+
+    <TextClock
+        android:id="@+id/textClock2"
+        android:layout_width="240dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="36dp"
+        android:textSize="55sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="161dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="stopAlarm"
+        android:text="STOP ALARM"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView2"/>
+</RelativeLayout>

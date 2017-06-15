@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.unity.newalarmapp.AlarmWait">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="121dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="17dp"
+        android:text="Alarm Time"
+        android:textSize="18sp"
+        android:layout_below="@+id/alarmTime"/>
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:textSize="55sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="138dp"
+        android:layout_height="31dp"
+        android:text="Current Time"
+        android:textSize="18sp"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_below="@+id/textClock"/>
+
+    <TextView
+        android:id="@+id/alarmTime"
+        android:layout_width="240dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="89dp"
+        android:textColor="@android:color/black"
+        android:textSize="55sp"
+        android:layout_below="@+id/textView"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="148dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:onClick="resetAlarm"
+        android:text="RESET"
+        android:layout_below="@+id/textView3"/>
+</RelativeLayout>

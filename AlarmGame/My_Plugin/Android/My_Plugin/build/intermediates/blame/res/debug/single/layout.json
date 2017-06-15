@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Sarenias\\Projects\\Unity\\AlarmGame\\My_Plugin\\Android\\My_Plugin\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_wait.xml",
+        "source": "C:\\Users\\Sarenias\\.android\\build-cache\\1c0bc556aae9c3cb7f27af618ca708ae08a46b64\\output\\res\\layout\\activity_alarm_wait.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sarenias\\Projects\\Unity\\AlarmGame\\My_Plugin\\Android\\My_Plugin\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_clock.xml",
+        "source": "C:\\Users\\Sarenias\\.android\\build-cache\\1c0bc556aae9c3cb7f27af618ca708ae08a46b64\\output\\res\\layout\\activity_alarm_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sarenias\\Projects\\Unity\\AlarmGame\\My_Plugin\\Android\\My_Plugin\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_finish.xml",
+        "source": "C:\\Users\\Sarenias\\.android\\build-cache\\1c0bc556aae9c3cb7f27af618ca708ae08a46b64\\output\\res\\layout\\activity_alarm_finish.xml"
+    }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <string name="ALARM_MESS">ALARM TIME REACHED</string>
+    <string name="ALARM_TIME">Alarm Time</string>
+    <string name="CURR_TIME">Current Time</string>
+    <string name="RESET_ALARM">RESET</string>
+    <string name="STOP_ALARM">STOP</string>
+    <string name="app_name">My_Plugin</string>
+    <string name="start_alarm">START</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="UnityThemeSelector" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+</style>
+</resources>
